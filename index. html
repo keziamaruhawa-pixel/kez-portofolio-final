@@ -1,1 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kezia - Computer Science Student, Web Developer, and Cyber Security Enthusiast. Explore my projects and get in touch!">
+    <meta name="author" content="Kezia">
+    <title>Kezia | Web Developer & CS Student</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
 
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Kezia<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="badge">
+                        <span class="status-dot"></span>
+                        Open for Internship
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Kezia</span>
+                        <span class="wave">👋</span>
+                    </h1>
+                    <div class="typing-wrapper">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-desc">
+                        Computer Science student at President University who loves building websites, 
+                        designing databases, and exploring cyber security. I learn by doing — 
+                        turning ideas into real, working products.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="assets/cv/CV-Kezia.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-paper-plane"></i> Hire Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/kezia" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/kezia" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/kezia" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:kezia@example.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="assets/img/kezia-profile.jpg" alt="Kezia - Web Developer">
+                        <div class="image-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead">I'm a hands-on developer who believes in <span class="highlight">learning by building</span>.</p>
+                    <p>Currently studying Computer Science at President University, I spend my time crafting web experiences, optimizing databases, and diving into the world of cyber security. What drives me? The satisfaction of seeing something I built actually work and help people.</p>
+                    <p>Outside of code, I'm either exploring new tech stacks, contributing to open source, or looking for my next coffee spot to work from ☕</p>
+                    
+                    <div class="fun-fact">
+                        <i class="fas fa-rocket"></i>
+                        <span>Fun fact: I built my first website at 16, and I've been hooked ever since!</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>Education</h3>
+                        <div class="edu-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <strong>President University</strong>
+                                <p>Computer Science, 2025 - Present</p>
+                                <small>Web Dev, Database, Cyber Security</small>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <i class="fas fa-school"></i>
+                            <div>
+                                <strong>SMA 3 SOLOK</strong>
+                                <p>Science Major, 2023 - 2025</p>
+                                <small>Mathematics, Physics, Chemistry</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Core Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill">
+                                <span>Web Development</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill">
+                                <span>Database Design</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                            </div>
+                            <div class="skill">
+                                <span>UI/UX Design</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                            </div>
+                            <div class="skill">
+                                <span>Cyber Security</span>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 65%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Things I've built and deployed</p>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p>Whether it's an internship, project, or just a chat — I'd love to hear from you!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:kezia@example.com">kezia@example.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/kezia" target="_blank">linkedin.com/in/kezia</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/kezia" target="_blank">github.com/kezia</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-instagram"></i>
+                        <h3>Instagram</h3>
+                        <a href="https://instagram.com/kezia" target="_blank">@kezia</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <p class="form-status" id="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Kezia. Built with <i class="fas fa-heart"></i> from Indonesia</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
